@@ -1,8 +1,9 @@
-# ignore everything
+# Ignore everything by default
 *
 
-# except these folders
-!SetSolver
-!SetSolver/**
-!SciEng
-!SciEng/**
+# Allow ISET folder with specific subdirectories
+!ISET/
+!ISET/SetSolver/
+!ISET/SetSolver/**
+!ISET/SciEng/
+!ISET/SciEng/**

@@ -1,1 +1,3 @@
-ISET
+ISET/
+build/
+.vscode/settings.json
